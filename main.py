@@ -46,7 +46,7 @@ tools = [
 ]
 
 llm = OpenAI(
-    model='gpt-3.5-turbo'
+    model='gpt-4o-mini'
 )
 
 agent = ReActAgent.from_tools(tools, llm=llm, verbose=True, context=context)
